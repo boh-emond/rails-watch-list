@@ -8,6 +8,7 @@ gem "rails", "~> 7.1.2"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
@@ -61,4 +62,7 @@ group :development do
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
-
+gem 'rspec-rails', group: [ :test ]
+gem 'rails-controller-testing', group: [ :test ]
+gem 'rspec-rails', group: [ :test ]
+gem 'rails-controller-testing', group: [ :test ]
